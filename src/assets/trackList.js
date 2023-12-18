@@ -1,12 +1,12 @@
 export default [
     {
       id: 1,
-      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/250/what-i-say-1668733254-7bXF48DYkS.mp3",
+      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/441/ex-1686873662-qp9IiXksb7.mp3",
       preview:
-        "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/154/1000x0/no-way-back-1656410436-lmCSrM15Fp.jpg",
-      duration: 215,
-      title: "No Way Back",
-      artists: "Custody",
+       "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/441/100x100/ex-1686873660-cdDwpKb6rx.jpg",
+      duration: 135,
+      title: "EX",
+      artists: "Heleen, Afterfab, Coopex",
     },
     {
       id: 2,
@@ -46,12 +46,12 @@ export default [
     },
     {
       id: 6,
-      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/853/phenomenon-1605895230-EleosL4jlP.mp3",
+      src: "https://cdn8.sefon.pro/prev/n_MRWvX3IXEhLzr-ywxsnw/1702952557/1/Roxette%20-%20Listen%20To%20Your%20Heart%20%28192kbps%29.mp3",
       preview:
-        "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/853/1000x0/phenomenon-1605895227-fAhxMTrRpG.jpg",
-      duration: 176,
-      title: "Phenomenon",
-      artists: "VinDon",
+        "https://audiovat.com/wp-content/uploads/2021/10/Roundel-Sounds-Freebie-Listen-To-Your-Heart-Press-Pack-e1633968854440-600x600.jpg",
+      duration: 330,
+      title: "Listen to your heart",
+      artists: "Roxette",
     },
     {
       id: 7,
@@ -82,21 +82,21 @@ export default [
     },
     {
       id: 10,
-      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/676/volt-1586959481-7oo0fw99Vt.mp3",
+      src: "https://cdn6.sefon.pro/prev/SK6DBJEfQrpCCJ6q7aFIBQ/1702955445/27/Paul%20Mauriat%20-%20Toccata%20%28192kbps%29.mp3",
       preview:
-        "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/676/1000x0/volt-1586959457-zDcTmbdEOq.png",
-      duration: 183,
-      title: "VOLT",
-      artists: "Modern Revolt",
+        "https://i.ebayimg.com/images/g/j8AAAOSwdrRjtkWr/s-l1600.jpg",
+      duration: 157,
+      title: "Toccata",
+      artists: "Paul Mauriat",
     },
     {
       id: 11,
-      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/649/war-zone-ft-mime-1586958862-uOdchVMspI.mp3",
+      src: "https://cdn2.sefon.pro/prev/ONwdeKJBZwqmHrxLPtYgcA/1702956567/1/Schiller%20-%20Dream%20Of%20You%20%28192kbps%29.mp3",
       preview:
-        "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/649/1000x0/war-zone-ft-mime-1586958856-RK8C6g2w4R.jpg",
-      duration: 183,
-      title: "War Zone",
-      artists: "Unknown Brain",
+        "https://i.discogs.com/TlceoGCxsu0vZsudhkhxtkyaR3R0jh5sL8yGGfwOQpM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwODAx/OC0xNDQ3MzU1NDIw/LTE0MDEuanBlZw.jpeg",
+      duration: 238,
+      title: "Dream Of You",
+      artists: "Schiller",
     },
     {
       id: 12,
@@ -115,5 +115,14 @@ export default [
       duration: 210,
       title: "Cradles",
       artists: "Sub Urban",
+    },
+    {
+      id: 14,
+      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/520/tidal-wave-1693526469-tnKm6pVpAR.mp3",
+      preview:
+        "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/520/100x100/tidal-wave-1693526466-6d4z2ehVyA.jpg",
+      duration: 141,
+      title: "Tidal Wave",
+      artists: "ZANA, Coopex, KHEMIS",
     },
   ];
