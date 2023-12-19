@@ -31,6 +31,10 @@ const AudioProvider = ({children}) => {
             audio.play();
             setIsPlaying(true);
         }
+
+        audio.onended = () => {
+            setIsPlaying(false);
+        };
     }
 
     const value = {audio, currentTrack, isPlaying, handleToggleAudio};
