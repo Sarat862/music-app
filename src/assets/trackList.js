@@ -46,12 +46,12 @@ export default [
     },
     {
       id: 6,
-      src: "https://cdn8.sefon.pro/prev/n_MRWvX3IXEhLzr-ywxsnw/1702952557/1/Roxette%20-%20Listen%20To%20Your%20Heart%20%28192kbps%29.mp3",
+      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/581/heart-my-heart-1702342852-bgXrAUrUMT.mp3",
       preview:
-        "https://audiovat.com/wp-content/uploads/2021/10/Roundel-Sounds-Freebie-Listen-To-Your-Heart-Press-Pack-e1633968854440-600x600.jpg",
-      duration: 330,
-      title: "Listen to your heart",
-      artists: "Roxette",
+        "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/581/325x325/heart-my-heart-1702342850-8xXwkVZbO4.jpg",
+      duration: 169,
+      title: "Heart my heart",
+      artists: "intouch",
     },
     {
       id: 7,
@@ -59,7 +59,7 @@ export default [
       preview:
         "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/838/1000x0/1602924116_v2O3UoVY11_Artwork.jpg",
       duration: 224,
-      title: "Lonely Way",
+      title: "Lonely way",
       artists: "Rival, Caravn",
     },
     {
@@ -82,21 +82,21 @@ export default [
     },
     {
       id: 10,
-      src: "https://cdn6.sefon.pro/prev/SK6DBJEfQrpCCJ6q7aFIBQ/1702955445/27/Paul%20Mauriat%20-%20Toccata%20%28192kbps%29.mp3",
+      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/476/on-replay-1689292855-xcC8UCyRdW.mp3",
       preview:
-        "https://i.ebayimg.com/images/g/j8AAAOSwdrRjtkWr/s-l1600.jpg",
-      duration: 157,
-      title: "Toccata",
-      artists: "Paul Mauriat",
+        "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/476/100x100/on-replay-1689292853-JqwhpEPfn5.jpg",
+      duration: 182,
+      title: "On Replay",
+      artists: "NIVIRO",
     },
     {
       id: 11,
-      src: "https://cdn2.sefon.pro/prev/ONwdeKJBZwqmHrxLPtYgcA/1702956567/1/Schiller%20-%20Dream%20Of%20You%20%28192kbps%29.mp3",
+      src: "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/466/realize-1688601659-L1LCIYSLIF.mp3",
       preview:
-        "https://i.discogs.com/TlceoGCxsu0vZsudhkhxtkyaR3R0jh5sL8yGGfwOQpM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwODAx/OC0xNDQ3MzU1NDIw/LTE0MDEuanBlZw.jpeg",
-      duration: 238,
-      title: "Dream Of You",
-      artists: "Schiller",
+        "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/466/100x100/realize-1688601657-lunqd0rvcq.jpg",
+      duration: 180,
+      title: "Realize",
+      artists: "Ghost'n'Ghost ...",
     },
     {
       id: 12,

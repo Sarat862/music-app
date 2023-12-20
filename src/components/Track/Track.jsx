@@ -12,14 +12,14 @@ const Track = (track) => {
 
     const {handleToggleAudio, currentTrack, isPlaying} = useContext(AudioContext);
 
-    const isCurrenttrack = currentTrack.id === track.id;
+    const isCurrentTrack = currentTrack.id === track.id;
 
     const formattedDuration = secondsToMMSS(duration);
 
     return (
-        <div className={cn(scss.track, isCurrenttrack && scss.playing)}>
+        <div className={cn(scss.track, isCurrentTrack && scss.playing)}>
             <IconButton onClick={() => handleToggleAudio(track)}>
-                {isCurrenttrack && isPlaying ? <Pause /> : <PlayArrow />} 
+                {isCurrentTrack && isPlaying ? <Pause /> : <PlayArrow />} 
             </IconButton>
             <img className={scss.preview} src={preview} alt="" />
             <div className={scss.credits}>
