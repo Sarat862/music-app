@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import VolumeControls from "./VolumeControls/VolumeControls";
 import TimeControls from "./TimeControls/TimeControls";
 import { AudioContext } from "../../context/AudioContext";
 import scss from "./Playbar.module.scss";
@@ -25,6 +26,7 @@ const Playbar = () => {
                 <p>{artists}</p>
             </div>
             <div className={scss.slider}>
+                <VolumeControls />
                 <TimeControls />
                 <p>{formattedDuration}</p>
             </div>
