@@ -30,12 +30,23 @@ const AudioProvider = ({children}) => {
         } else {
             audio.play();
             setIsPlaying(true);
-        }
-
-        audio.onended = () => {
-            setIsPlaying(false);
-        };
+        }  
     }
+
+    audio.onended = () => {
+        setIsPlaying(false);
+        for (let i = 0; i < trackList.length - 1; i++) {
+
+            if (trackList[i].id === currentTrack.id) {
+                setCurrentTrack(trackList[i+1]);
+                setIsPlaying(true);
+
+                audio.src = trackList[i+1].src;
+                audio.currentTime = 0;
+                audio.play();
+            }
+        }
+    };
 
     const value = {audio, currentTrack, isPlaying, handleToggleAudio};
 
